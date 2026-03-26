@@ -116,43 +116,7 @@ export const products: Product[] = [
     category: "Outdoor",
     image: "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=80&w=800&auto=format&fit=crop",
     sizes: [7, 8, 9, 10, 11, 12]
-  },
-  {
-    id: "13",
-    name: "Walkin Essential Men's Tee",
-    price: 35.00,
-    description: "The perfect everyday t-shirt. Made from 100% organic cotton, this tee offers a relaxed fit and unmatched breathability for all-day comfort.",
-    category: "Men's Apparel",
-    image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=800&auto=format&fit=crop",
-    sizes: ["S", "M", "L", "XL", "XXL"]
-  },
-  {
-    id: "14",
-    name: "Walkin Active Women's Top",
-    price: 45.00,
-    description: "Stay cool during your workouts. This active top features moisture-wicking technology and a flattering, athletic fit.",
-    category: "Women's Apparel",
-    image: "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?q=80&w=800&auto=format&fit=crop",
-    sizes: ["XS", "S", "M", "L", "XL"]
-  },
-  {
-    id: "15",
-    name: "Walkin Classic Men's Hoodie",
-    price: 75.00,
-    description: "A wardrobe staple. Our classic hoodie is crafted from premium fleece, featuring a kangaroo pocket and an adjustable drawstring hood.",
-    category: "Men's Apparel",
-    image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=800&auto=format&fit=crop",
-    sizes: ["S", "M", "L", "XL", "XXL"]
-  },
-  {
-    id: "16",
-    name: "Walkin Essential Women's Tee",
-    price: 35.00,
-    description: "Soft, versatile, and effortlessly stylish. This essential tee is designed to be your go-to top for any casual occasion.",
-    category: "Women's Apparel",
-    image: "https://images.unsplash.com/photo-1503341455253-b2e723bb3db8?q=80&w=800&auto=format&fit=crop",
-    sizes: ["XS", "S", "M", "L", "XL"]
   }
 ];
 
-export const categories = ["All", "Running", "Lifestyle", "Outdoor", "Sports", "Casual", "Training", "Men's Apparel", "Women's Apparel"];
+export const categories = ["All", "Running", "Lifestyle", "Outdoor", "Sports", "Casual", "Training"];
